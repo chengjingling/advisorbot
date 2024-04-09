@@ -1,6 +1,6 @@
 # AdvisorBot
 
-<img src="advisorbot.png">
+<img src="advisorbot.png" width="500">
 
 ## About
 
