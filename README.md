@@ -10,6 +10,8 @@ AdvisorBot is a command line program written in C++ that can carry out various t
 
 Here is a list of commands that can be executed in the program:
 
+<br>
+
 ### C1: help
 
 Command: `help`
@@ -21,6 +23,8 @@ Example:
 user> help
 
 advisorbot> The available commands are help, help <cmd>, prod, min, max, avg, predict, time, step, enter, retrieve, delete, wallet and sales
+
+<br>
 
 ### C2: help cmd
 
@@ -34,6 +38,8 @@ user> help avg
 
 avg ETH/BTC bid 10 -> average ETH/BTC bid over last 10 time steps
 
+<br>
+
 ### C3: prod
 
 Command: `prod`
@@ -45,6 +51,8 @@ Example:
 user> prod
 
 advisorbot> ETH/BTC, DOGE/BTC
+
+<br>
 
 ### C4: min
 
@@ -58,6 +66,8 @@ user> min ETH/BTC ask
 
 advisorbot> The min ask for ETH/BTC is 1.0
 
+<br>
+
 ### C5: max
 
 Command: `max product bid/ask`
@@ -69,6 +79,8 @@ Example:
 user> max ETH/BTC ask
 
 advisorbot> The max ask for ETH/BTC is 1.0
+
+<br>
 
 ### C6: avg
 
@@ -82,6 +94,8 @@ user> avg ETH/BTC ask 10
 
 advisorbot> The average ETH/BTC ask price over the last 10 timesteps was 1.0
 
+<br>
+
 ### C7: predict
 
 Command: `predict min/max product bid/ask`
@@ -93,6 +107,8 @@ Example:
 user> predict max ETH/BTC bid
 
 advisorbot> The average ETH/BTC ask price over the last 10 timesteps was 1.0
+
+<br>
 
 ### C8: time
 
@@ -106,6 +122,8 @@ user> time
 
 advisorbot> 2020/03/17 17:01:24
 
+<br>
+
 ### C9: step
 
 Command: `step`
@@ -118,6 +136,8 @@ user> step
 
 advisorbot> now at 2020/03/17 17:01:30
 
+<br>
+
 ### C10: enter
 
 Command: `enter bid/ask product price amount`
@@ -129,6 +149,8 @@ Example:
 user> enter bid ETH/BTC 0.02 10
 
 advisorbot> Wallet looks good
+
+<br>
 
 ### C11: retrieve
 
@@ -144,6 +166,8 @@ advisorbot> ask BTC/USDT 0.5 1
 
 bid ETH/BTC 0.02 10
 
+<br>
+
 ### C12: delete
 
 Command: `delete bid/ask product price amount`
@@ -155,6 +179,8 @@ Example:
 user> delete bid ETH/BTC 0.02 10
 
 advisorbot> Delete successful
+
+<br>
 
 ### C13: wallet
 
@@ -171,6 +197,8 @@ advisorbot> Your wallet contains:
 BTC: 9.000000
 
 USDT: 0.500000
+
+<br>
 
 ### C14: sales
 
